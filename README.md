@@ -23,7 +23,7 @@ The writeup / README should include a statement and supporting figures / images 
 You are reading the document. The output produced
 Image | Video
 ------------|---------------
-![image_output](./images/output.png) | ![video_output](./images/output_optmized.gif)
+![image_output](output.png) | ![video_output](output_optmized.gif)
 
 
 ## Rubric point 2
@@ -247,7 +247,7 @@ The image processing pipeline that was established to find the lane lines in ima
 
 #### Answer
 Final video output is provided in the output.mp4 file while the compressed gif is shown below:
-![video_output](./images/output_optmized.gif)
+![video_output](output_optmized.gif)
 
 ## Rubric point 10
 
