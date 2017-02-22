@@ -7,7 +7,7 @@
 ## Introduction
 The objective of the fourth project in the udacity's self driving car nanodegree is to create an algorithm which processes the road images for detection of the driving lane.
 
-This readme file will document the algorithm which was developed by me for Advanced Lane Detection project of the udacity SDC.
+This readme file will document the algorithm which was developed by me for Advanced Lane Detection project of the udacity SDC. The
 
 ## Rubric point 1
 #### Critera 1:
@@ -20,8 +20,7 @@ The writeup / README should include a statement and supporting figures / images 
 
 #### Answer
 
-You are reading the document. The output produced
-![video_output](output_optmized.gif)
+You are reading the document.
 
 
 ## Rubric point 2
