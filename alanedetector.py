@@ -238,22 +238,7 @@ class CLaneDetector():
         #return left_fitx, right_fitx
 
     def calculate_road_info(self, image_size, left_x, right_x):
-        """
-        This method calculates left and right road curvature and off of the vehicle from the center
-        of the lane
-
-        :param image_size:
-            Size of the image
-
-        :param left_x:
-            X coordinated of left lane pixels
-
-        :param right_x:
-            X coordinated of right lane pixels
-
-        :return:
-            Left and right curvatures of the lane and off of the vehicle from the center of the lane
-        """
+        # Original version from the Upul Bandara at github.com/upul
         # first we calculate the intercept points at the bottom of our image
         left_intercept = self.left_line.current_fit[0] * image_size[0] ** 2 + self.left_line.current_fit[1] * image_size[0] + self.left_line.current_fit[2]
         right_intercept = self.right_line.current_fit[0] * image_size[0] ** 2 + self.right_line.current_fit[1] * image_size[0] + self.right_line.current_fit[2]
