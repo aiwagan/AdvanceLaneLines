@@ -21,9 +21,7 @@ The writeup / README should include a statement and supporting figures / images 
 #### Answer
 
 You are reading the document. The output produced
-Image | Video
-------------|---------------
-![image_output](output.png) | ![video_output](output_optmized.gif)
+![video_output](output_optmized.gif)
 
 
 ## Rubric point 2
